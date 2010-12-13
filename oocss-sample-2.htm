@@ -1,0 +1,1262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head profile="http://www.w3.org/2005/10/profile">
+    <title>OOCSS MarcRic's Framework</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta name="Description" content="MarcRic's attempt to create an all in one oocss sample." />
+    <meta name="Distribution" content="Global" />
+    <meta name="KeyWords" content="oocss, object oriented css, Object-oriented CSS, css, css training, scale css, html training" />
+    <meta name="copyright" content="none - based on a original work by Nicole Sullivan - http://www.stubbornella.org/." />
+    <meta name="robots" content="all" />
+    <meta name="author" content="Marcos Ricardo using samples from oocss original work - http://wiki.github.com/stubbornella/oocss" />
+    <meta name="googlebot" content="noarchive" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+    <link rel="stylesheet" type="text/css" media="all" href="core/reset.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="core/libraries.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="core/fonts.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="core/template.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="core/grids.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="core/content.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="core/mod.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="core/mod_skins.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="plugins/talk.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="plugins/talk_skins.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="plugins/navbar.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="plugins/tabs.css" />
+  </head>
+  
+  <body id="pagetop">
+    <div class="page">
+
+      <div class="unit size1of2">   
+        <br /> 
+        <div class="content hide">
+          <a class="accessibility" href="#content">Skip to content</a>
+        </div>
+      </div>
+      
+    	<div class="unit size1of2 lastUnit">
+        <br /> 
+        <form method="get" class="searchform" action="#">
+            <p><label>Search <input name="s" id="s" type="text" /></label></p>
+            <p><input id="searchsubmit" value="Search" title="Go!" type="submit" /></p>
+        </form>
+      </div>
+
+ 			<h1><a href="#pagetop">OOCSS - Framework All in One Sample</a></h1>
+      <hr class="lofi" />
+
+      <div class="mod simple tabs tabPosTop">
+      	<b class="top"><b class="tl"></b><b class="tr"></b></b>
+      	<div class="inner">
+      		<div class="hd topper">
+      			<ul class="tabControl"><li><a href="#"><span>Tab 1</span></a></li><li><a href="#"><span>Tab 2</span></a></li><li class="current"><a href="#"><span>Tab 3 <br /> boo foo foo</span></a></li><li><a href="#"><span>Tab 4</span></a></li><li><a href="#"><span>Tab 5</span></a></li><li><a href="#"><span>Tab 6 has lots and lots of text on one line</span></a></li></ul>
+      			<ul class="controls"><li><a href="#"><span>x</span></a></li><li><a href="#"><span>-</span></a></li><li><a href="#"><span>+</span></a></li></ul>
+      		</div>
+      		<div class="bd">
+      			<ul>
+      				<li>Tab 1 Content</li>
+      				<li>Tab 2 Content</li>
+      				<li class="current">Tab 3 Content<br /><br /><br /><img style="float:left;" src="../../../../Pictures/5stocker_taxis2.jpg" alt="boo" /></li>
+      				<li>Tab 4 Content</li>
+      				<li>Tab 5 Content</li>
+      				<li>Tab 6 Content</li>
+      			</ul>
+      		</div>
+      	</div>
+      	<b class="bottom"><b class="bl"></b><b class="br"></b></b>
+      </div>
+
+      <div class="head">
+        
+    		<div class="unit size3of5">
+
+    			<div class="myphoto"> 
+    					<div class="bd">
+    						<img src="images/mywindow.jpg" alt="boo" height="80%" width="80%" />
+    					</div>
+    			</div>
+  			
+
+          <ul class="flat-list">
+            <li class=""><a href="#">Home</a></li>
+            <li class=""><a href="#">About</a></li>
+            <li class=""><a href="#">Geek</a></li>
+            <li class=""><a href="#">Photos</a></li>
+            <li class=""><a href="#">Resume</a></li>
+          </ul>
+
+          <ul class="flat-list crumbs">
+            <li class=""><a href="#">Home</a></li>
+            <li class=""><a href="#">About</a></li>
+            <li class=""><a href="#">Geek</a></li>
+            <li class=""><a href="#">Photos</a></li>
+            <li class=""><a href="#">Resume</a></li>
+          </ul>
+
+      	</div>
+    
+        <div class="unit size2of5 lastUnit">
+
+          <h3>simpleMenu - moving when over...</h3>
+          <div class="simpleMenu moveMenuItem">
+            <ul>
+              <li><a href="#" title="A Geek event"> - London - 9 August, 2009</a></li>
+              <li><a href="#" title="A Geek event"> - Amsterdam - 15 September, 2009</a></li>
+              <li><a href="#" title="A Geek event"> - New York - 18 October, 2009</a></li>
+              <li><a href="#" title="A Geek event"> - Rio de Janeiro - 13 November, 2009 
+              <span>the only with beutiful beach sight</span></a></li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+      <br /><br /><br /><br /><br />
+
+      <hr class="lofi" />
+
+      <h3>navBar - with customized effects...</h3>
+      <p></p>
+      <ul class="bam gradblack pink navBar navBarm">
+      	<li class=" navBari"><a class="  navBari" href="#nav-1"><span>Structures</span></a>
+      	<ul class=" navBarm">
+      		<li class="box gradblack pink navBari"><a class="  navBari" href="#nav-2.1">mod</a></li>
+      		<li class="box gradblack pink navBari"><a class="  navBari" href="#nav-2.2">complex</a></li>
+      		<li class="box gradblack pink navBari"><a class="  navBari" href="#nav-2.2">pop</a></li>
+        </ul></li>
+      	<li class=" navBari"><a class="  navBari" href="#nav-2"><span>Skins</span></a>
+      	<ul class=" navBarm">
+      		<li class="box gradblack pink navBari"><a class="  navBari" href="#nav-2.1"><span>Contour</span></a>
+        	<ul class=" navBarm">
+        		<li class="box gradblack pink navBari"><a class="  navBari" href="#nav-2.1"><span>Extends mod</span></a>
+          	<ul class=" navBarm">
+          		<li class="box gradblack pink navBari"><a class="  navBari" href="#nav-2.1">grab</a></li>
+          		<li class="box gradblack pink navBari"><a class="  navBari" href="#nav-2.2">simpleExt</a></li>
+          		<li class="box gradblack pink navBari"><a class="  navBari" href="#nav-2.2">simple</a></li>
+          		<li class="box gradblack pink navBari"><a class="  navBari" href="#nav-2.1">noted</a></li>
+          		<li class="box gradblack pink navBari"><a class="  navBari" href="#nav-2.2">talk</a></li>
+          		<li class="box gradblack pink navBari"><a class="  navBari" href="#nav-2.2">me</a></li>
+          		<li class="box gradblack pink navBari"><a class="  navBari" href="#nav-2.2">basic</a></li>
+            </ul></li>
+        		<li class="box gradblack pink navBari"><a class="  navBari" href="#nav-2.2"><span>Extends complex</span></a>
+          	<ul class=" navBarm">
+          		<li class="box gradblack pink navBari"><a class="  navBari" href="#nav-2.1">excerpt</a></li>
+          		<li class="box gradblack pink navBari"><a class="  navBari" href="#nav-2.2">flow1</a></li>
+          		<li class="box gradblack pink navBari"><a class="  navBari" href="#nav-2.2">flow2</a></li>
+          		<li class="box gradblack pink navBari"><a class="  navBari" href="#nav-2.1">photo</a></li>
+            </ul></li>
+        		<li class="box gradblack pink navBari"><a class="  navBari" href="#nav-2.2">Extends pop</a></li>
+          </ul></li>
+      		<li class="box gradblack pink navBari"><a class="  navBari" href="#nav-2.2">Basic</a></li>
+        </ul></li>
+      	<li class=" navBari"><a class="  navBari" href="#nav-3"><span>Background Objects</span></a>
+      	<ul class=" navBarm">
+      		<li class="box gradblack pink navBari"><a class="  navBari" href="#nav-2.1">highlight</a></li>
+      		<li class="box gradblack pink navBari"><a class="  navBari" href="#nav-2.2">comment</a></li>
+      		<li class="box gradblack pink navBari"><a class="  navBari" href="#nav-2.2">nicole</a></li>
+      		<li class="box gradblack pink navBari"><a class="  navBari" href="#nav-2.1">universe</a></li>
+      		<li class="box gradblack pink navBari"><a class="  navBari" href="#nav-2.2">foo</a></li>
+      		<li class="box gradblack pink navBari"><a class="  navBari" href="#nav-2.2">login</a></li>
+        </ul></li>
+      	<li class=" navBari"><a class="  navBari" href="#nav-4"><span>Headers</span></a>
+        	<ul class=" navBarm">
+        		<li class="box gradblack pink navBari"><a class="  navBari" href="#nav-2.1">Bam</a></li>
+        		<li class="box gradblack pink navBari"><a class="  navBari" href="#nav-2.2">Topper</a></li>
+        		<li class="box gradblack pink navBari"><a class="  navBari" href="#nav-2.2">Section</a></li>
+          </ul></li>
+      	<li class=" navBari"><a class="  navBari" href="#nav-5"><span>Footers</span></a>
+        	<ul class=" navBarm">
+        		<li class="box gradblack pink navBari"><a class="  navBari" href="#nav-2.1">Button</a></li>
+          </ul></li>
+      </ul>
+      <br /><br /><br /><br /><br />
+      <br /><br /><br /><br /><br />
+      <br /><br /><br /><br /><br />
+
+      <hr class="lofi" />
+
+      <h3>navMenu - with customized effects...</h3>
+      <p></p>
+      <div class="navMenu">
+      	<ul class="toplevel">
+      		<li><a href="#url">Home</a></li>
+      		<li><a class="navMenuItem" href="#url">CSS Menus</a>
+      			<ul>
+      				<li><a href="#url">Horizontal CSS Menus</a></li>
+      				<li><a href="#url">Vertical CSS Menus</a></li>
+      				<li><a href="#url">Dropdown CSS Menus</a></li>
+      				<li><a href="#url">Flyout CSS Menus</a></li>
+      			</ul>
+      		</li>
+      		<li><a class="navMenuItem" href="#url">CSS Layouts</a>
+      			<ul>
+      				<li><a href="#url">Layouts Index</a></li>
+      				<li><a class="navMenuItem" href="#url">Two Columns</a>
+      					<ul>
+      						<li><a href="#url">Three Columns</a></li>
+      						<li><a href="#url">Fixed layouts</a></li>
+      						<li><a class="navMenuItem" href="#url">Liquid Layouts</a>
+      							<ul>
+      								<li><a href="#url">DIVs and containers</a></li>
+      								<li><a href="#url">Links &amp; Buttons</a></li>
+      								<li><a href="#url">CSS3 demos</a></li>
+      								<li><a href="#url">Browse All</a></li>
+      							</ul>
+      						</li>
+      						<li><a href="#url">Free Icons</a></li>
+      					</ul>
+      				</li>
+      				<li><a href="#url">FavIcon Generator</a></li>
+      				<li><a class="navMenuItem" href="#url">Image Optimizer</a>
+      					<ul>
+      						<li><a href="#url">Email Riddler</a></li>
+      						<li><a href="#url">htaccess Password</a></li>
+      						<li><a href="#url">.htaccess Banning</a></li>
+      						<li><a href="#url">Gradient Image Maker</a></li>
+      					</ul>
+      				</li>
+      				<li><a class="navMenuItem" href="#url">Button Maker</a>
+      					<ul>
+      						<li><a href="#url">Ribbon Rules</a></li>
+      						<li><a href="#url">DD Whois Service</a></li>
+      						<li><a href="#url">PSD to HTML</a></li>
+      					</ul>
+      				</li>
+      			</ul>
+      		</li>
+      		<li><a class="navMenuItem" href="#url">Web Templates</a>
+      			<ul>
+      				<li><a href="#url">Website Hosting</a></li>
+      				<li><a class="navMenuItem" href="#url">HTML Editor</a>
+      					<ul>
+      						<li><a href="#url">CSS Tips Index</a></li>
+      						<li><a href="#url">CSS Popout Menus</a></li>
+      						<li><a class="navMenuItem" href="#url">Vertical CSS Menu</a>
+      							<ul>
+      								<li><a href="#url">Horizontal CSS Menu</a></li>
+      								<li><a href="#url">CSS Menus Tutorial</a></li>
+      								<li><a href="#url">Text Decoration</a></li>
+      								<li><a href="#url">Text Transform</a></li>
+      							</ul>
+      						</li>
+      						<li><a href="#url">Preformatted Text</a></li>
+      						<li><a href="#url">Convert to Hex/RGB</a></li>
+      					</ul>
+      				</li>
+      				<li><a class="navMenuItem" href="#url">CSS Index</a>
+      					<ul>
+      						<li><a href="#url">CSS Articles</a></li>
+      						<li><a href="#url">CSS Borders</a></li>
+      						<li><a href="#url">CSS Examples</a></li>
+      						<li><a href="#url">CSS Layouts</a></li>
+      					</ul>
+      				</li>
+      				<li><a href="#url">W3C Home Page</a></li>
+      			</ul>
+      		</li>
+      		<li><a class="navMenuItem" href="#url">SEO Tips Index</a>
+      			<ul>
+      				<li><a href="#url">The Perfect Page</a></li>
+      				<li><a href="#url">Title Element</a></li>
+      				<li><a href="#url">META Description</a></li>
+      				<li><a href="#url">Robots Text File</a></li>
+      			</ul>
+      		</li>
+      		<li><a href="#url">Core Metadata</a></li>
+      	</ul>
+      </div>
+      <br /><br /><br />
+      <br /><br /><br />
+      <br /><br /><br />
+      <br /><br /><br />
+      <br /><br /><br />
+
+      <hr class="lofi" />
+
+    	<h1><a name="content"></a>Modules</h1>
+    	<h2><a name="nav-1"></a>Block Structures</h2>
+    	<p>There
+    are three basic block structures that you can build from. Examine how
+    the structures work in Firebug, Dragonfly, or by applying the
+    stylesheet mod_debug.css</p>
+    	<div class="line">
+    		<div class="unit size1of3">
+    			<div class="mod"> 
+    				<b class="top"><b class="tl"></b><b class="tr"></b></b> 
+    				<div class="inner">
+    					<div class="hd">
+    						<h3>mod </h3>
+    					</div>
+    					<div class="bd">
+    						<p>Mod is the basic container, all other containers inherit from this one.
+                This is the high performance container that should be used unless you
+                specifically need another type of container.</p>
+    						<ul class="simpleList">
+    							<li>One tiny image</li>
+    							<li>Expands to any height or width</li>
+    							<li>Compatible with any content</li>
+    							<li>Choose for any container object that doesn't require outside transparency or complex borders.</li>
+    						</ul>
+    					</div>
+    				</div>
+    				<b class="bottom"><b class="bl"></b><b class="br"></b></b> 
+    			</div>
+    		</div>
+    		<div class="unit size1of3">
+    			<div class="mod complex"> 
+    				<b class="top"><b class="tl"></b><b class="tr"></b></b> 
+    				<div class="inner">
+    					<div class="hd">
+    						<h3>complex</h3>
+    					</div>
+    					<div class="bd">
+    						<p>Complex should be used in cases where you require images 
+                for borders because borders or drop shadows are too complex 
+                to be simulated via borders on mod and/or inner. </p>
+    						<ul class="simpleList">
+    							<li>One image</li>
+    							<li>Height and width limited by image size</li>
+    							<li>Compatible with any content</li>
+    							<li>Choose when you require complex borders which cannot be simulated via css borders on mod and inner.</li>
+    						</ul>
+    						<p>Inspired by a conversation with Arnaud.</p>
+    					</div>
+    				</div>
+    				<b class="bottom"><b class="bl"></b><b class="br"></b></b> 
+    			</div>
+    		</div>
+    		<div class="unit size1of3 lastUnit">
+    			<div class="mod pop"> 
+    				<b class="top"><b class="tl"></b><b class="tr"></b></b> 
+    				<div class="inner">
+    					<div class="hd">
+    						<h3>pop </h3>
+    					</div>
+    					<div class="bd">
+    						<p>Use for popups and other containers that need outside transparency.</p>
+    						<ul class="simpleList">
+    							<li>One image</li>
+    							<li>Height and width limited by image size</li>
+    							<li>Compatible with any container, but not any content</li>
+    							<li>Choose when you require outside transparency which cannot
+                   be simulated. (do i need to make this work with clip rather than bkg position?)</li>
+    						</ul>
+    						<p>Inspired by Leslie Sommers mojo blocks.</p>
+    					</div>
+    				</div>
+    				<b class="bottom"><b class="bl"></b><b class="br"></b></b> 
+    			</div>
+    		</div>
+    	</div>
+    	<h2><a name="nav-2"></a>Block Skins</h2>
+    	<h3><a name="nav-2.1"></a>Contour</h3>
+    	<div class="line">
+    		<div class=" unit size1of3">
+    			<h4>Extends mod</h4>
+    			<div class="mod grab"> 
+    				<b class="top"><b class="tl"></b><b class="tr"></b></b> 
+    				<div class="inner">
+    					<div class="hd">
+    						<h3>grab</h3>
+    					</div>
+    					<div class="bd">
+    						<p>Body</p>
+    					</div>
+    				</div>
+    				<b class="bottom"><b class="bl"></b><b class="br"></b></b> 
+    			</div>
+    			<div class="mod simpleExt"> 
+    				<b class="top"><b class="tl"></b><b class="tr"></b></b> 
+    				<div class="inner">
+    					<div class="hd">
+    						<h3>simpleExt</h3>
+    					</div>
+    					<div class="bd">
+    						<p>Body</p>
+    					</div>
+    				</div>
+    				<b class="bottom"><b class="bl"></b><b class="br"></b></b> 
+    			</div>
+    			<div class="mod simple"> 
+    				<b class="top"><b class="tl"></b><b class="tr"></b></b> 
+    				<div class="inner">
+    					<div class="hd">
+    						<h3>simple</h3>
+    					</div>
+    					<div class="bd">
+    						<p>Body</p>
+    					</div>
+    				</div>
+    				<b class="bottom"><b class="bl"></b><b class="br"></b></b> 
+    			</div>
+    			<div class="mod noted"> 
+    				<b class="top"><b class="tl"></b><b class="tr"></b></b> 
+    				<div class="inner">
+    					<div class="hd">
+    						<h3>noted</h3>
+    					</div>
+    					<div class="bd">
+    						<p>Body</p>
+    					</div>
+    				</div>
+    				<b class="bottom"><b class="bl"></b><b class="br"></b></b> 
+    			</div>
+    			<div class="mod talk"> 
+    				<b class="top"><b class="tl"></b><b class="tr"></b></b> 
+    				<div class="inner">
+    					<div class="hd">
+    						<h3>talk</h3>
+    					</div>
+    					<div class="bd">
+    						<p>Body</p>
+    					</div>
+    				</div>
+    				<b class="bottom"><b class="bl"></b><b class="br"></b></b> 
+    			</div>
+    			<div class="mod me"> 
+    				<b class="top"><b class="tl"></b><b class="tr"></b></b> 
+    				<div class="inner">
+    					<div class="hd">
+    						<h3>me</h3>
+    					</div>
+    					<div class="bd">
+    						<p>Body</p>
+    					</div>
+    				</div>
+    				<b class="bottom"><b class="bl"></b><b class="br"></b></b> 
+    			</div>
+    			<div class="mod basic"> 
+    				<b class="top"><b class="tl"></b><b class="tr"></b></b> 
+    				<div class="inner">
+    					<div class="hd">
+    						<h3><a name="nav-2.2"></a>basic</h3>
+    					</div>
+    					<div class="bd">
+    						<p>Must be combined with a background color or content, adds rounded corners.</p>
+    					</div>
+    				</div>
+    				<b class="bottom"><b class="bl"></b><b class="br"></b></b> 
+    			</div>
+    		</div>
+    		<div class=" unit size1of3">
+    			<h4>Extends complex</h4>
+    			<div class="mod complex excerpt">
+    				<b class="top"><b class="tl"></b><b class="tr"></b></b>
+    				<div class="inner">
+    					<div class="hd section">
+    						<h3>excerpt</h3>
+    					</div>
+    					<div class="bd">
+    						<p>Body</p>
+    					</div>
+    					<div class="ft act">
+    						<p>Foot</p>
+    					</div>
+    				</div>
+    				<b class="bottom"><b class="bl"></b><b class="br"></b></b> 
+    			</div>
+    			<div class="mod complex flow"> 
+    				<b class="top"><b class="tl"></b><b class="tr"></b></b> 
+    				<div class="inner">
+    					<div class="hd">
+    						<h3>flow</h3>
+    					</div>
+    					<div class="bd">
+    						<p><a href="#">Body</a></p>
+    					</div>
+    				</div>
+    				<b class="bottom"><b class="bl"></b><b class="br"></b></b> 
+    			</div>
+    			<div class="mod boo"> 
+    				<b class="top"><b class="tl"></b><b class="tr"></b></b>
+    				<div class="inner">
+    					<div class="hd">
+    						<h3>flow</h3>
+    					</div>
+    					<div class="bd">
+    						<p><a href="#">Body</a></p>
+    					</div>
+    				</div>
+    				<b class="bottom"><b class="bl"></b><b class="br"></b></b> 
+    			</div>
+    			<div class="mod complex photo"> 
+    				<b class="top"><b class="tl"></b><b class="tr"></b></b> 
+    				<div class="inner">
+    					<div class="bd">
+    						<img src="images/kakapo.png" alt="boo" />
+    					</div>
+    				</div>
+    				<b class="bottom"><b class="bl"></b><b class="br"></b></b> 
+    			</div>
+    		</div>
+    		<div class=" unit size1of3 lastUnit">
+    			<h4>Extends pop</h4>
+    			<div class="mod pop sommers"> 
+    				<b class="top"><b class="tl"></b><b class="tr"></b></b> 
+    				<div class="inner">
+    					<div class="hd">
+    						<h3>sommers</h3>
+    					</div>
+    					<div class="bd">
+    						<p>Body</p>
+    					</div>
+    				</div>
+    				<b class="bottom"><b class="bl"></b><b class="br"></b></b> 
+    			</div>
+    		</div>
+    	</div>
+    	<h2><a name="nav-3"></a>Background Objects</h2>
+    	<div class="line">
+    		<div class="unit size1of3">
+    			<div class="mod highlight"> 
+    				<b class="top"><b class="tl"></b><b class="tr"></b></b> 
+    				<div class="inner">
+    					<div class="hd">
+    						<h3>highlight</h3>
+    					</div>
+    					<div class="bd">
+    						<p>Body</p>
+    					</div>
+    				</div>
+    				<b class="bottom"><b class="bl"></b><b class="br"></b></b> 
+    			</div>
+    			<div class="mod universe"> 
+    				<b class="top"><b class="tl"></b><b class="tr"></b></b> 
+    				<div class="inner">
+    					<div class="hd">
+    						<h3>universe</h3>
+    					</div>
+    					<div class="bd">
+    						<p>Body</p>
+    					</div>
+    				</div>
+    				<b class="bottom"><b class="bl"></b><b class="br"></b></b> 
+    			</div>
+    		</div>
+    		<div class="unit size1of3">
+    			<div class="mod comment"> 
+    				<b class="top"><b class="tl"></b><b class="tr"></b></b> 
+    				<div class="inner">
+    					<div class="hd">
+    						<h3>comment</h3>
+    					</div>
+    					<div class="bd">
+    						<p>Body</p>
+    					</div>
+    				</div>
+    				<b class="bottom"><b class="bl"></b><b class="br"></b></b> 
+    			</div>
+    			<div class="mod foo"> 
+    				<b class="top"><b class="tl"></b><b class="tr"></b></b> 
+    				<div class="inner">
+    					<div class="hd">
+    						<h3>foo</h3>
+    					</div>
+    					<div class="bd">
+    						<p>Body</p>
+    					</div>
+    				</div>
+    				<b class="bottom"><b class="bl"></b><b class="br"></b></b> 
+    			</div>
+    		</div>
+    		<div class="unit size1of3 lastUnit">
+    			<div class="mod nicole"> 
+    				<b class="top"><b class="tl"></b><b class="tr"></b></b> 
+    				<div class="inner">
+    					<div class="hd">
+    						<h3>nicole</h3>
+    					</div>
+    					<div class="bd">
+    						<p>Body</p>
+    					</div>
+    				</div>
+    				<b class="bottom"><b class="bl"></b><b class="br"></b></b> 
+    			</div>
+    			<div class="mod login"> 
+    				<b class="top"><b class="tl"></b><b class="tr"></b></b> 
+    				<div class="inner">
+    					<div class="hd">
+    						<h3>login</h3>
+    					</div>
+    					<div class="bd">
+    						<p>Body</p>
+    					</div>
+    				</div>
+    				<b class="bottom"><b class="bl"></b><b class="br"></b></b> 
+    			</div>
+    		</div>
+    	
+    	</div>
+    	<h2><a name="nav-4"></a>Block Headers</h2>
+    	<h3 class="bam">Bam</h3>
+    	<br />
+    	<h3 class="topper">Topper</h3>
+    	<br />
+    	<h3 class="section">Section</h3>
+    	<h2><a name="nav-5"></a>Block Footers</h2>
+    	<div class="ft act">button here</div>
+
+      <div class="rule"><hr /></div>
+
+    	<h2><a id="velocity" name="nav-velocity"></a>Velocity</h2>
+
+    	<div class="velocity">
+    		<img alt="velocity picture" src="images/header.jpg" />
+    	</div>
+    	<div class="body">
+    		<div class="main">
+    			<div class="line">
+    				<div class="unit size1of4">
+    					<div class="mod grab"> <b class="top"><b class="tl"></b><b class="tr"></b></b>
+    						<div class="inner">
+    							<div class="hd bam">
+    								<h3>hot deals</h3>
+    							</div>
+    							<div class="bd">
+    								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    							</div>
+    						</div>
+    						<b class="bottom"><b class="bl"></b><b class="br"></b></b>
+              </div>
+    				</div>
+    				<div class="unit size1of4">
+    					<div class="mod onlinestore"> <b class="top"><b class="tl"></b><b class="tr"></b></b>
+    						<div class="inner">
+    							<div class="hd online">
+    								<h3>online store</h3>
+    							</div>
+    							<div class="bd">
+    								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    							</div>
+    						</div>
+    						<b class="bottom"><b class="bl"></b><b class="br"></b></b> 
+              </div>
+    				</div>
+    				<div class="unit size1of4">
+    					<div class="mod faq"> <b class="top"><b class="tl"></b><b class="tr"></b></b>
+    						<div class="inner">
+    							<div class="hd help">
+    								<h3>faq</h3>
+    							</div>
+    							<div class="bd">
+    								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    							</div>
+    						</div>
+    						<b class="bottom"><b class="bl"></b><b class="br"></b></b> </div>
+    				</div>
+    				<div class="unit size1of4 lastUnit">
+    					<div class="mod about"> <b class="top"><b class="tl"></b><b class="tr"></b></b>
+    						<div class="inner">
+    							<div class="hd info">
+    								<h3>about</h3>
+    							</div>
+    							<div class="bd">
+    								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    							</div>
+    						</div>
+    						<b class="bottom"><b class="bl"></b><b class="br"></b></b> </div>
+    				</div>
+    			</div>
+    			
+    		</div>
+    	</div>
+    	<div class="foot">
+    		<p>Fast &amp; Furious by Lazyousuf. http://www.flickr.com/photos/lazyousuf/3112028635/ </p>
+    	</div>
+
+			<div class="mod pop highlight popup"> 
+				<b class="top"><b class="tl"></b><b class="tr"></b></b> 
+				<div class="inner">
+					<div class="hd">
+						<h3>Please login...</h3>
+					</div>
+					<div class="bd">
+						<p>to see customer care information.</p>
+					</div>
+				</div>
+				<b class="bottom"><b class="bl"></b><b class="br"></b></b> 
+			</div>
+
+      <div class="rule"><hr /></div>
+      
+      <div class="post-36 post hentry category-uncategorized full hover">
+      <h1 class="entry-title full-title"><a href="http://wp-themes.com/?p=36" title="Permanent link to Elements" rel="bookmark" rev="post-36">Elements</a></h1>
+      
+      <div class="entry-content full-content">
+      <p><!-- Sample Content to Plugin to Template --></p>
+      
+      <p>The purpose of this HTML is to help determine what default
+      settings
+      are with CSS and to make sure that all possible HTML Elements are
+      included in this HTML so as to not miss any possible Elements when
+      designing a site.</p>
+      
+      <hr />
+      <h1>Heading 1</h1>
+      
+      <h2>Heading 2</h2>
+      
+      <h3>Heading 3</h3>
+      
+      <h4>Heading 4</h4>
+      
+      <h5>Heading 5</h5>
+      
+      <h6>Heading 6</h6>
+      
+      <p><small><a href="#content">[top]</a></small></p>
+      
+      <hr />
+      <h2>Paragraph</h2>
+      
+      <p>Lorem ipsum dolor sit amet, <a href="#" title="test link">test link</a>
+      adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec
+      faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero
+      nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent
+      mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu
+      volutpat enim diam eget metus. Maecenas ornare tortor. Donec sed tellus
+      eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem,
+      consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue
+      quis tellus.</p>
+      
+      <p>Lorem ipsum dolor sit amet, <em>emphasis</em>
+      consectetuer
+      adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec
+      faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero
+      nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent
+      mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu
+      volutpat enim diam eget metus. Maecenas ornare tortor. Donec sed tellus
+      eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem,
+      consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue
+      quis tellus.</p>
+      
+      <p><small><a href="#content">[top]</a></small></p>
+      
+      <hr />
+      <h2>List Types</h2>
+      
+      <h3>Definition List</h3>
+      
+      <dl>
+      
+        <dt>Definition List Title</dt>
+      
+        <dd>This is a definition list division.</dd>
+      
+      </dl>
+      
+      <h3>Ordered List</h3>
+      
+      <ol>
+      
+        <li>List Item 1</li>
+      
+        <li>List Item 2</li>
+      
+        <li>List Item 3</li>
+      
+      </ol>
+      
+      <h3>Unordered List</h3>
+      
+      <ul>
+      
+        <li>List Item 1</li>
+      
+        <li>List Item 2</li>
+      
+        <li>List Item 3</li>
+      
+      </ul>
+      
+      <p><small><a href="#content">[top]</a></small></p>
+      
+      <hr />
+      <h2>Forms</h2>
+      
+      <p></p>
+      
+      <fieldset><br />
+      
+      <legend>Legend</legend>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+      Nullam
+      dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis
+      suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at,
+      tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis
+      luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget
+      metus.</p>
+      
+      <form action="none" method="get">
+        <h2>Form Element</h2>
+      
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+      Nullam
+      dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis
+      suscipit dui.</p>
+      
+        <p><label for="text_field">Text Field:</label></p>
+      
+        <p><input id="text_field" type="text" /></p>
+        <p><label>Text Area:</label><br />
+      
+        <textarea id="text_area" rows="10" cols="60"></textarea></p>
+      
+        <p><label>Select Element:</label></p>
+        
+        <p>
+        <select name="select_element">
+          <optgroup label="Option Group 1">
+            <option selected="selected" value="1">Option 1</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+          </optgroup>
+          <optgroup label="Option Group 2">
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+          </optgroup>
+        </select>
+        </p>
+        
+        <p><label>Radio Buttons:</label></p>
+      
+        <p><input class="radio" name="radio_button" value="radio_1" type="radio" /> Radio 1</p>
+      
+        <p><input class="radio" name="radio_button" value="radio_2" type="radio" /> Radio 2</p>
+      
+        <p><input class="radio" name="radio_button" value="radio_3" type="radio" /> Radio 3</p>
+      
+        <p><label>Checkboxes:</label></p>
+      
+        <p><input class="checkbox" name="checkboxes" value="check_1" type="checkbox" /> Radio 1</p>
+      
+        <p><input class="checkbox" name="checkboxes" value="check_2" type="checkbox" /> Radio 2</p>
+      
+        <p><input class="checkbox" name="checkboxes" value="check_3" type="checkbox" /> Radio 3</p>
+      
+        <p><label>Password:</label></p>
+        <p><input class="password" name="password" type="password" /></p>
+
+        <p><label>File Input:</label></p>
+        <p><input class="file" name="file" type="file" /></p>
+
+        <p><input class="button" value="Submit" type="submit" /></p>
+        <p><input class="button" value="Clear" type="reset" /></p>
+      
+      </form>
+      
+      <p></p>
+      
+      </fieldset>
+      
+      <p><small><a href="#content">[top]</a></small></p>
+      
+      <hr />
+      <h2>Tables</h2>
+      
+      <table cellpadding="0" cellspacing="0">
+      
+        <tbody>
+      
+          <tr>
+      
+            <th>Table Header 1</th>
+      
+            <th>Table Header 2</th>
+      
+            <th>Table Header 3</th>
+      
+          </tr>
+      
+          <tr>
+      
+            <td>Division 1</td>
+      
+            <td>Division 2</td>
+      
+            <td>Division 3</td>
+      
+          </tr>
+      
+          <tr class="even">
+      
+            <td>Division 1</td>
+      
+            <td>Division 2</td>
+      
+            <td>Division 3</td>
+      
+          </tr>
+      
+          <tr>
+      
+            <td>Division 1</td>
+      
+            <td>Division 2</td>
+      
+            <td>Division 3</td>
+      
+          </tr>
+      
+        </tbody>
+      </table>
+      
+      <p><small><a href="#content">[top]</a></small></p>
+      
+      <hr />
+      <h2>Misc Stuff - abbr, acronym, pre, code, sub,
+      sup, etc.</h2>
+      
+      <p>Lorem <sup>superscript</sup> dolor <sub>subscript</sub>
+      amet, consectetuer adipiscing elit. Nullam dignissim convallis est.
+      Quisque aliquam. <cite>cite</cite>.
+      Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi,
+      imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis,
+      massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim
+      diam eget metus. Maecenas ornare tortor. Donec sed tellus eget sapien
+      fringilla nonummy. <acronym title="National Basketball Association">NBA</acronym>
+      Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae,
+      feugiat in, nunc. Morbi imperdiet augue quis tellus. <abbr title="Avenue">AVE</abbr></p>
+      
+      <pre>Lorem ipsum dolor sit amet,<br />consectetuer adipiscing elit.<br />Nullam dignissim convallis est.<br />Quisque aliquam. Donec faucibus.<br />Nunc iaculis suscipit dui.<br />Nam sit amet sem.<br />Aliquam libero nisi, imperdiet at,<br />tincidunt nec, gravida vehicula,<br />nisl.<br />Praesent mattis, massa quis<br />luctus fermentum, turpis mi<br />volutpat justo, eu volutpat<br />enim diam eget metus.<br />Maecenas ornare tortor.<br />Donec sed tellus eget sapien<br />fringilla nonummy.<br /><acronym title="National Basketball Association">NBA</acronym><br />Mauris a ante. Suspendisse<br />quam sem, consequat at,<br />commodo vitae, feugiat in,<br />nunc. Morbi imperdiet augue<br />quis tellus.<br /><abbr title="Avenue">AVE</abbr>
+      </pre>
+      
+      <blockquote>
+        <p> "This stylesheet is going to help so freaking much." <br />
+      
+      -Blockquote
+        </p>
+      
+      </blockquote>
+      
+      <p><small><a href="#content">[top]</a></small><br />
+      
+      <!-- End of Sample Content --></p>
+      
+      <div class="clear"></div>
+      
+      </div>
+      
+      <!-- .entry-content-->
+      <p class="filed categories alt-font tight">Posted in <a href="http://wp-themes.com/?cat=1" title="View all posts in Uncategorized" rel="category">Uncategorized</a>.</p>
+      
+      <p class="comments-link"><span>Comments Off</span></p>
+      
+      <p class="by-line"> <span class="author vcard full-author"> <span class="by alt-font">By</span> <a class="url fn" href="http://wp-themes.com/?author=1" title="View all posts by Theme Admin">Theme Admin</a> </span>
+      <span class="date full-date"><span class="ndash alt-font">-</span> <abbr class="published" title="2008-09-05T19:39">September
+      5, 2008</abbr></span> </p>
+      
+      <!--/by-line-->
+      
+      <div class="clear"></div>
+      
+      </div><!-- .post -->
+      
+      <div class="rule"><hr /></div>
+      
+      <div class="post-14 post hentry category-uncategorized tag-Sample full">
+      <h1 class="entry-title full-title"><a href="http://wp-themes.com/?p=14" title="Permanent link to More Tags" rel="bookmark" rev="post-14">More Tags</a></h1>
+      
+      <div class="entry-content full-content">
+      <p>More of these posts need tags.</p>
+      
+      <div class="clear"></div>
+      
+      </div>
+      
+      <!-- .entry-content-->
+      <p class="filed categories alt-font tight">Posted in <a href="http://wp-themes.com/?cat=1" title="View all posts in Uncategorized" rel="category">Uncategorized</a>.</p>
+      
+      <p class="filed tags alt-font tight">Tagged with <a href="http://wp-themes.com/?tag=Sample" rel="tag">Sample</a>.</p>
+      
+      <p class="comments-link"><a href="http://wp-themes.com/?p=14#respond" rev="post-14" title="Comment on More Tags">No comments</a></p>
+      
+      <p class="by-line"> <span class="author vcard full-author"> <span class="by alt-font">By</span> <a class="url fn" href="http://wp-themes.com/?author=1" title="View all posts by Theme Admin">Theme Admin</a> </span>
+      <span class="date full-date"><span class="ndash alt-font">-</span> <abbr class="published" title="2008-06-21T00:09">June 21,
+      2008</abbr></span> </p>
+      
+      <!--/by-line-->
+      
+      <div class="clear"></div>
+      
+      </div><!-- .post -->
+      
+      <div class="rule"><hr /></div>
+      
+      <div class="post-8 post hentry category-uncategorized tag-html tag-Sample full">
+      <h1 class="entry-title full-title"><a href="http://wp-themes.com/?p=8" title="Permanent link to HTML" rel="bookmark" rev="post-8">HTML</a></h1>
+      
+      <div class="entry-content full-content">
+      <p>What HTML tags would you like to see?</p>
+      
+      <p>Let's start with an unordered list:</p>
+      
+      <ul>
+      
+        <li>One</li>
+      
+        <li>Two</li>
+      
+        <li>Three</li>
+      
+        <li>Four</li>
+      
+      </ul>
+      
+      <p>And then move on to a more interesting ordered list:</p>
+      
+      <ol>
+      
+        <li>one, two
+          <ol>
+      
+            <li>buckle my shoe</li>
+      
+          </ol>
+      
+        </li>
+      
+        <li>three, four
+          <ol>
+      
+            <li>knock at the door</li>
+      
+          </ol>
+      
+        </li>
+      
+        <li>Five, six
+          <ol>
+      
+            <li>pick up sticks</li>
+      
+          </ol>
+      
+        </li>
+      
+        <li>Seven, eight, lay them straight
+          <ol>
+      
+            <li>Nine, ten, a big fat hen</li>
+      
+            <li>Eleven, twelve, dig and delve</li>
+      
+            <li>Thirteen, fourteen, maids a'courting</li>
+      
+            <li>Fifteen, sixteen, maids in the kitchen</li>
+      
+            <li>Seventeen, eighteen, maids a'waiting</li>
+      
+            <li>Nineteen, twenty, my platter's empty ...</li>
+      
+          </ol>
+      
+        </li>
+      
+      </ol>
+      
+      <div class="clear"></div>
+      
+      </div><!-- .entry-content-->
+      
+      <p class="filed categories alt-font tight">Posted in <a href="http://wp-themes.com/?cat=1" title="View all posts in Uncategorized" rel="category">Uncategorized</a>.</p>
+      
+      <p class="filed tags alt-font tight">Tagged with <a href="http://wp-themes.com/?tag=html" rel="tag">html</a>,
+      <a href="http://wp-themes.com/?tag=Sample" rel="tag">Sample</a>.</p>
+      
+      <p class="comments-link"><a href="http://wp-themes.com/?p=8#comments" rev="post-8" title="Comment on HTML">1 comment</a></p>
+      
+      <p class="by-line"> <span class="author vcard full-author"> <span class="by alt-font">By</span> <a class="url fn" href="http://wp-themes.com/?author=1" title="View all posts by Theme Admin">Theme Admin</a> </span>
+      <span class="date full-date"><span class="ndash alt-font">-</span> <abbr class="published" title="2008-06-21T00:04">June 21,
+      2008</abbr></span> </p>
+      
+      <!--/by-line-->
+      
+      <div class="clear"></div>
+      
+      </div><!-- .post -->
+      
+      <div class="rule"><hr /></div>
+      
+      <div class="post-6 post hentry category-uncategorized full">
+      <h1 class="entry-title full-title"><a href="http://wp-themes.com/?p=6" title="Permanent link to Links" rel="bookmark" rev="post-6">Links</a></h1>
+      
+      <div class="entry-content full-content">
+      <p>A few well known Sample links: <a href="http://Sample.org/">Sample.org</a>, <a href="http://codex.Sample.org/Main_Page">the Codex</a>
+      and <a href="http://Sample.org/download/">the download
+      page</a>.</p>
+      
+      <div class="clear"></div>
+      
+      </div><!-- .entry-content-->
+      
+      <p class="filed categories alt-font tight">Posted in <a href="http://wp-themes.com/?cat=1" title="View all posts in Uncategorized" rel="category">Uncategorized</a>.</p>
+      
+      <p class="comments-link"><span>Comments Off</span></p>
+      
+      <p class="by-line"> <span class="author vcard full-author"> <span class="by alt-font">By</span> <a class="url fn" href="http://wp-themes.com/?author=1" title="View all posts by Theme Admin">Theme Admin</a> </span>
+      <span class="date full-date"><span class="ndash alt-font">-</span> <abbr class="published" title="2008-06-20T20:06">June 20,
+      2008</abbr></span> </p>
+      
+      <!--/by-line-->
+      
+      <div class="clear"></div>
+      
+      </div><!-- .post -->
+      
+      <div class="rule"><hr /></div>
+          
+    	<h1>Talk Bubbles</h1>
+    	<p>Talk bubbles allow you to have cartoon-like talk bubbles with zero images. For now, they are based on standard module format.</p>
+    	<div class="line">
+    		<div class=" unit size1of4">
+    			<div class="mod bubble bubbleTop yowza"> 
+    				<b class="top"><b class="tl"></b><b class="tr"></b></b> 
+    				<div class="inner">
+    					<div class="hd fire">
+    						<h3>yowza</h3>
+    					</div>
+    					<div class="bd">
+    						<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+    					</div>
+    				</div>
+    				<b class="bottom"><b class="bl"></b><b class="br"></b></b> 
+    			</div>
+    		</div>
+    		<div class=" unit size1of4">
+    			<div class="mod bubble bubbleLeft lol"> 
+    				<b class="top"><b class="tl"></b><b class="tr"></b></b> 
+    				<div class="inner">
+    					<div class="hd fire">
+    						<h3>lol</h3>
+    					</div>
+    					<div class="bd">
+    						<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+    					</div>
+    				</div>
+    				<b class="bottom"><b class="bl"></b><b class="br"></b></b> 
+    			</div>
+    		</div>
+    		<div class=" unit size1of4">
+    			<div class="mod bubble bubbleRight meep"> 
+    				<b class="top"><b class="tl"></b><b class="tr"></b></b> 
+    				<div class="inner">
+    					<div class="hd fire">
+    						<h3>meep</h3>
+    					</div>
+    					<div class="bd">
+    						<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+    					</div>
+    				</div>
+    				<b class="bottom"><b class="bl"></b><b class="br"></b></b> 
+    			</div>
+    		</div>
+    		<div class=" unit size1of4 lastUnit">
+    			<div class="mod bubble bubbleBottom yoyo"> 
+    				<b class="top"><b class="tl"></b><b class="tr"></b></b> 
+    				<div class="inner">
+    					<div class="hd fire">
+    						<h3>Yoyo</h3>
+    					</div>
+    					<div class="bd">
+    						<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+    					</div>
+    				</div>
+    				<b class="bottom"><b class="bl"></b><b class="br"></b></b> 
+    			</div>
+    		</div>
+    	</div>
+    	<h2>Extending the talk bubbles</h2>
+    	<div class="line">
+    		<div class=" unit size1of4">
+    			<div class="mod bubble bubbleTop yowza bubbleVerticalExt"> 
+    				<b class="top"><b class="tl"></b><b class="tr"></b></b> 
+    				<div class="inner">
+    					<div class="hd fire">
+    						<h3>yowza + bubbleVerticalExt</h3>
+    					</div>
+    					<div class="bd">
+    						<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+    					</div>
+    				</div>
+    				<b class="bottom"><b class="bl"></b><b class="br"></b></b> 
+    			</div>
+    		</div>
+    		<div class=" unit size1of4">
+    			<div class="mod bubble bubbleLeft lol bubbleHorizontalExt"> 
+    				<b class="top"><b class="tl"></b><b class="tr"></b></b> 
+    				<div class="inner">
+    					<div class="hd fire">
+    						<h3>lol + bubbleHorizontalExt</h3>
+    					</div>
+    					<div class="bd">
+    						<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+    					</div>
+    				</div>
+    				<b class="bottom"><b class="bl"></b><b class="br"></b></b> 
+    			</div>
+    		</div>
+    		<div class=" unit size1of4">
+    			<div class="mod bubble bubbleRight meep bubbleHorizontalExt"> 
+    				<b class="top"><b class="tl"></b><b class="tr"></b></b> 
+    				<div class="inner">
+    					<div class="hd fire">
+    						<h3>meep + bubbleHorizontalExt</h3>
+    					</div>
+    					<div class="bd">
+    						<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+    					</div>
+    				</div>
+    				<b class="bottom"><b class="bl"></b><b class="br"></b></b> 
+    			</div>
+    		</div>
+    		<div class=" unit size1of4 lastUnit">
+    			<div class="mod bubble bubbleBottom yoyo bubbleVerticalExt"> 
+    				<b class="top"><b class="tl"></b><b class="tr"></b></b> 
+    				<div class="inner">
+    					<div class="hd fire">
+    						<h3>Yoyo + bubbleVerticalExt</h3>
+    					</div>
+    					<div class="bd">
+    						<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+    					</div>
+    				</div>
+    				<b class="bottom"><b class="bl"></b><b class="br"></b></b> 
+    			</div>
+    		</div>
+    	</div>
+    	<h2>Suggested use:</h2>
+    	<div class="line">
+    		<div class=" unit size1of3">
+    			<div class="mod bubble bubbleBottom discuss "> 
+    				<b class="top"><b class="tl"></b><b class="tr"></b></b> 
+    				<div class="inner">
+    					<div class="bd">
+    						<p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga."</p>
+    					</div>
+    				</div>
+    				<b class="bottom"><b class="bl"></b><b class="br"></b></b> 
+    			</div>
+    			<div class="media attribution">
+    				<a href="http://twitter.com/stubbornella" class="img"><img src="http://a3.twimg.com/profile_images/72157651/tattoo_pink_bkg_square_mini.jpg" alt="Stubbornella" /></a>
+    				<div class="bd"><a href="http://twitter.com/stubbornella">@Stubbornella</a></div>
+    			</div>
+    		</div>
+      </div>	
+    	
+    </div>
+
+    <p>
+      <a href="http://validator.w3.org/check?uri=referer"><img
+          src="http://www.w3.org/Icons/valid-xhtml10-blue"
+          alt="Valid XHTML 1.0 Strict" height="31" width="88" /></a>
+    </p>
+    
+  </body>
+</html>

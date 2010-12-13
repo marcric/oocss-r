@@ -1,0 +1,76 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=windows-1250">
+  <meta name="generator" content="PSPad editor, www.pspad.com">
+  <title></title>
+    <style type="text/css">
+      /* the original form */
+      .b1, .b2, .b3, .b4{font-size:1px; overflow:hidden; display:block;}
+      .b1 {height:1px; background:#888; margin:0 5px;}
+      .b2 {height:1px; background:#ddd; border-right:2px solid #888; border-left:2px solid #888; margin:0 3px;}
+      .b3 {height:1px; background:#ddd; border-right:1px solid #888; border-left:1px solid #888; margin:0 2px;}
+      .b4 {height:2px; background:#ddd; border-right:1px solid #888; border-left:1px solid #888; margin:0 1px;}
+
+      .blcontent {background: #ddd; border-right:1px solid #888; border-left:1px solid #888;}
+      .blcontent span {margin-left: 5px;} 	
+
+      /* My first attempt to make it short */
+      .bl1, .bl2, .bl3, .bl4 {
+        font-size:1px; 
+        overflow:hidden; 
+        display:block; 
+        height:1px; 
+        border-style:none solid none solid; 
+        border-width:1px 1px 1px 1px; 
+        border-color:#888; 
+        background: #ddd;
+      }
+      .bl1 {background:#888; margin:0 5px;}
+      .bl2 {border-width:1px 2px 1px 2px; margin:0 3px;}
+      .bl3 {margin:0 2px;}
+      .bl4 {height:2px; margin:0 1px;}
+
+      /* My first attempt into oocss */
+      .scl1 {
+        font-size:1px; 
+        overflow:hidden; 
+        display:block; 
+        height:1px; 
+        border-style:none solid none solid; 
+        border-width:1px 1px 1px 1px; 
+        border-color:#888; 
+        background: #ddd;
+      }
+      .scl1 .scbl1 {background:#888; margin:0 5px;}
+      .scl1 .scbl2 {border-width:1px 2px 1px 2px; margin:0 3px;}
+      .scl1 .scbl3 {margin:0 2px;}
+      .scl1 .scbl4 {height:2px; margin:0 1px;}
+
+    </style>
+  </head>
+  <body>
+      <b class="b1"></b><b class="b2"></b><b class="b3"></b><b class="b4"></b>
+        <div class="blcontent">
+            <span>Round Border!!</span>
+        </div>
+      <b class="b4"></b><b class="b3"></b><b class="b2"></b><b class="b1"></b>
+
+      <p></p><p></p><p></p>
+      <b class="bl1"></b><b class="bl2"></b><b class="bl3"></b><b class="bl4"></b>
+      <div class="blcontent">
+          <span>Round Border!!</span>
+      </div>
+      <b class="bl4"></b><b class="bl3"></b><b class="bl2"></b><b class="bl1"></b>
+
+      <p></p><p></p><p></p>
+      <div class="scl1">
+      <b class=" scbl1"></b><b class=" scbl2"></b><b class=" scbl3"></b><b class=" scbl4"></b>
+      <div class="blcontent">
+          <span>Round Border!!</span>
+      </div>
+      <b class=" scbl4"></b><b class=" scbl3"></b><b class=" scbl2"></b><b class=" scbl1"></b>
+      </div>
+      
+  </body>
+</html>
